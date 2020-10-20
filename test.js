@@ -123,9 +123,9 @@ function revTranScribeOld(RNAsequence) {
 
 function transLate(RNAsequence) {
     var rnaString = seqVerify(RNAsequence.toUpperCase(),baseRNA), i, rL, cL;
-    var peptideString = ""        // string to be returned.
-    var coDon = "123";    // Three nucleotide characters read from input string.
-                        // number of characters defines codon size; ALWAYS 3 characters long on planet Earth
+    var peptideString = ""                                                   // string to be returned.
+    var coDon = "123";                                                       // Three nucleotide characters read from input string.
+                                                                             // number of characters defines codon size; ALWAYS 3 characters long on planet Earth
     cL = coDon.length, rL = rnaString.length - cL;
     for (i=0; i<=rL; i=i+cL) {
         coDon = rnaString.substring(i,i+cL);
