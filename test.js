@@ -1,4 +1,4 @@
-function Seq(seqString) { // it seems this is never used
+function Seq(seqString) { 
     this.revComp=revComp;
 }
 function revComp(s) { // --antiparallel strand
