@@ -1,7 +1,7 @@
 function Seq(seqString) { 
     this.revComp=revComp;
 }
-function revComp(s) { // --antiparallel strand
+function revComp(s) { // --антипараллельная нить
     return seqCompl(seqReverse(s));
 }
 function seqReverse(s) {
