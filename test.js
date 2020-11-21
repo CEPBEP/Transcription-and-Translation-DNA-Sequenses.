@@ -5,7 +5,7 @@ function revComp(s) { // --antiparallel strand
     return seqCompl(seqReverse(s));
 }
 function seqReverse(s) {
-    // Returns reverse of given sequence (not complemented)
+    // Возвращает реверс заданной последовательности (не готово)
     return s.split("").reverse().join("");
 }
 
